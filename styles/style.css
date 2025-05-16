@@ -26,21 +26,21 @@ html {
   --font-sm: clamp(0.8rem, 2.5vw, 1.2rem);
   --font-md: clamp(1rem, 2.5vw, 1.13rem);
   --font-lg: clamp(1.5rem, 5vw, 2.5rem);
-  --font-xl: clamp(2rem, 6vw, 3.5rem);
+  --font-xl: clamp(1.6rem, 6vw, 3rem);
   /* colors  */
   --text-muted: #344054;
-  --text-primary: #B262F3;
-  --text-secondary: #D32E23;
+  --text-primary: #b262f3;
+  --text-secondary: #d32e23;
   --bg-primary: #f5f5f5;
   --bg-secondary: #fff;
 }
 
-body{
-    background-color: var(--bg-primary);
+body {
+  background-color: var(--bg-primary);
 }
 
-.container{
-    padding: 0 7.5rem;
+.container {
+  padding: 0 7.5rem;
 }
 
 ul,
@@ -56,10 +56,12 @@ a {
 }
 
 button {
-    padding: 8px 27px;
-    border-radius: var(--border-radius-primary);
-    border: 1px solid #D0D5DD;
-    background-color: transparent;
+  padding: 8px 27px;
+  border-radius: var(--border-radius-primary);
+  border: 1px solid #d0d5dd;
+  background-color: transparent;
+  font-size: var(--font-md);
+  font-weight: 500;
 }
 
 /* navbar  */
@@ -68,6 +70,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--bg-secondary);
 }
 
 .navbar ul {
@@ -76,28 +79,123 @@ button {
   gap: 32px;
 }
 
-.navbar .buttons .login-btn{
-    margin-right: 12px;
+.login-btn {
+  margin-right: 12px;
 }
 
-.navbar .buttons .book-btn{
-    border-color: var(--text-primary);
-    color: var(--text-primary);
+.book-btn {
+  border-color: var(--text-primary);
+  color: var(--text-primary);
 }
 
 /* banner */
-.banner{
-    background-color: var(--bg-primary);
+.banner {
+  background-color: var(--bg-primary);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  gap: 28px;
 }
 
-.banner .badge{
-    border-radius: var(--border-radius-secondary);
-    background-color: var(--bg-secondary);
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 8px 16px;
+.banner .badge {
+  border-radius: var(--border-radius-secondary);
+  background-color: var(--bg-secondary);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
 }
 
-.banner .badge p{
+.banner .badge p {
+  color: var(--text-muted);
+}
+
+.banner-title {
+  font-size: var(--font-xl);
+  font-weight: 600;
+}
+
+.banner-title span {
+  background: linear-gradient(
+    to right,
+    #2b034d 0%,
+    #b564f7 42%,
+    #d37ef0 82%,
+    #ef90ff 100%
+  );
+  background-clip: text;
+  color: transparent;
+  /* --webkit-background-clip: text; */
+}
+
+.banner-title .number {
+  color: var(--text-secondary);
+}
+
+.banner .text-content p {
+  color: var(--text-muted);
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+.get-started {
+  background: linear-gradient(to bottom, #b564f7, #6a2f9b);
+  color: white;
+  margin-right: 24px;
+  /* font-size: 18px; */
+}
+
+/* banner image  */
+.banner-img-section {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  /* gap: 20px; */
+}
+
+.banner-img-section .banner-img {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-img-section .social-box {
+  border-radius: 16px;
+  padding: 20px 24px;
+  background-color: var(--bg-secondary);
+  margin-top: 37px;
+}
+
+.social-box p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.banner-img-section .social-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  gap: 32px;
+}
+
+.banner-img-section .social-icons .social-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: var(--bg-primary);
+}
+
+/* client section  */
+.client .text h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.client .text p{
+    color: #1D2939;
+    font-size: 20px;
 }
