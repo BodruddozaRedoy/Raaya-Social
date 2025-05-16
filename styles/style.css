@@ -43,6 +43,10 @@ body {
   padding: 0 7.5rem;
 }
 
+h3{
+  line-height: 1;
+}
+
 ul,
 ol {
   list-style: none;
@@ -62,6 +66,12 @@ button {
   background-color: transparent;
   font-size: var(--font-md);
   font-weight: 500;
+}
+
+.title{
+  font-size: var(--font-xl);
+  font-weight: 700;
+  text-align: center;
 }
 
 /* navbar  */
@@ -217,4 +227,100 @@ button {
 
 .divider-img{
     margin: 0 72px;
+}
+
+/* service  */
+.service{
+  padding: 100px 116px;
+}
+
+.service .title span{
+  color: var(--text-primary);
+}
+
+.service .text p {
+  color: var(--text-muted);
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.service-container{
+  border-radius: 16px;
+  background-color: var(--bg-secondary);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 28px 24px;
+  margin-top: 48px;
+}
+
+.service-container .text-header{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.service-container .text-header h3{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.service-container .text-cards{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.service-container .text-card{
+  display: flex; 
+  gap: 12px;
+}
+
+.text-card .card-text{
+  line-height: 1;
+}
+
+.text-card .card-text h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text-card .card-text p{
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 5px;
+}
+
+.service .service-cards .divider{
+  margin: 0px 48px;
+  /* height: 100%; */
+}
+
+.service-cards{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.service-cards .cards{
+  width: 100%;
+}
+
+.service-cards .cards .card{
+  border: 1px solid #D0D5DD;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.service-cards .card-icon{
+  width: 22px;
+  height: 22px;
+  border: 1px solid #D0D5DD;
+  border-radius: 100%;
 }
