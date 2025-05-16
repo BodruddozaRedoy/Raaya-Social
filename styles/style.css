@@ -67,6 +67,7 @@ button {
 /* navbar  */
 .navbar {
   padding-top: 16px;
+  padding-bottom: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -190,6 +191,14 @@ button {
 }
 
 /* client section  */
+.client{
+    display: flex;
+    align-items: center;
+    padding: 48px 0;
+    padding-left: 123px;
+    background-color: var(--bg-secondary);
+}
+
 .client .text h3{
     font-size: 32px;
     font-weight: 600;
@@ -198,4 +207,14 @@ button {
 .client .text p{
     color: #1D2939;
     font-size: 20px;
+}
+
+.client-logos{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.divider-img{
+    margin: 0 72px;
 }
