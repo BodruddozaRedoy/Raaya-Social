@@ -35,10 +35,43 @@
   .banner .text-content p {
     text-align: center;
   }
+  .banner .buttons{
+    display: flex;
+    justify-content: center;
+  }
+  .banner-img-section{
+    align-items: center;
+  }
   .banner-img-section .banner-img{
     width: 100%;
+    justify-content: center;
   }
   .banner-img-section .banner-img img{
+    width: 40%;
+  }
+  .banner-img-section .social-icons{
+    gap: 10px;
+  }
+  .client{
+    flex-direction: column;
+    padding-left: 0;
+    padding: 20px;
+  }
+  .client .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .client .divider-img{
+    transform: rotate(90deg);
+    margin: 0 10px;
+  }
+  .client-logos{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .client-logos img{
     width: 40%;
   }
 }
