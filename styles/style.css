@@ -537,6 +537,8 @@ margin-bottom: 100px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 80px;
+  margin-bottom: 128px;
   /* padding: 0 148px; */
 }
 
@@ -645,6 +647,21 @@ margin-bottom: 100px;
 
 .review .review-cards-2 .card{
   width: 33%;
+}
+
+.faq .text h1{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.faq .text .title{
+  color: var(--text-primary);
+}
+
+.faq .text p{
+  color: var(--text-muted);
+  text-align: center;
 }
 
 
