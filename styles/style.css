@@ -728,6 +728,7 @@ margin-bottom: 100px;
 
 .footer .company-info{
   width: 30%;
+  padding-right: 40px;
 }
 
 .footer .company-info h4{
@@ -758,8 +759,16 @@ margin-left: 24px;
   width: 15%;
 }
 
+.footer .quick-links ul li{
+  margin-bottom: 14px;
+}
+
 .footer .services{
   width: 25% !important;
+}
+
+.footer .services ul li{
+  margin-bottom: 14px;
 }
 
 .footer .contact-us{
