@@ -74,4 +74,39 @@
   .client-logos img{
     width: 40%;
   }
+  .service{
+    padding: 60px 0;
+  }
+  .service .text{
+    padding: 20px;
+  }
+  .service .text p{
+    width: 100%;
+  }
+  .service-container{
+    grid-template-columns: 1fr;
+  }
+  .service-cards{
+    flex-direction: column;
+  }
+  .service-cards .cards .card{
+    justify-content: start;
+    padding: 20px;
+  }
+  .text-service{
+    padding: -20px;
+  }
+  .service-cards .divider{
+    transform: rotate(90deg);
+    margin: 10px;
+  }
+  .service-cards .cards .card h3{
+    font-size: 16px;
+  }
+  .detailed-section .cards{
+    grid-template-columns: 1fr;
+  }
+  .detailed-section .text-cards{
+    grid-template-columns: 1fr;
+  }
 }

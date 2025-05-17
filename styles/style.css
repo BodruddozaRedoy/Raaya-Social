@@ -67,6 +67,7 @@ button {
   background-color: transparent;
   font-size: var(--font-md);
   font-weight: 500;
+  cursor: pointer;
 }
 
 
@@ -327,6 +328,10 @@ button {
   gap: 16px;
 }
 
+.service-cards .card-icon-container{
+  width: 22px;
+}
+
 .service-cards .cards .card {
   border: 1px solid #d0d5dd;
   border-radius: 16px;
@@ -356,6 +361,11 @@ button {
   height: 22px;
   border: 1px solid #d0d5dd;
   border-radius: 100%;
+  
+}
+
+.service-cards .card-icon img{
+  object-fit: contain;
 }
 
 .service-cards .card-icon-popular {
@@ -411,7 +421,7 @@ button {
 
 .detailed-section .text h1{
   font-family: 'raleway', sans-serif;
-  font-size: 48px;
+  font-size: var(--font-xl);
   font-weight: bold;
   text-align: center;
 }
@@ -432,17 +442,6 @@ button {
   font-size: 20px;
   font-weight: 500;
 }
-
-/* .detailed-section .card-header .card-icon{
-  width: 18px;
-  height: 18px;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
-  background-color: var(--text-primary);
-} */
 
 .detailed-section .cards .card{
   padding: 20px 24px 32px 24px;
