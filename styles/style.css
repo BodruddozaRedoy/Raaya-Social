@@ -530,22 +530,121 @@ margin-bottom: 100px;
 }
 
 /* client  */
-.client{
+.review{
+  /* margin: 0 auto; */
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  /* padding: 0 148px; */
 }
 
-.client .text h1{
+.review .text h1{
   font-size: 48px;
   font-weight: 600;
   text-align: center;
 }
 
-.client .text .title{
+.review .text{
+  width: 100%;
+  margin: 0 auto;
+}
+.review .text .title{
   color: var(--text-primary);
   font-weight: 600;
+}
+
+.review .cards{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.review .cards .card{
+  width: 100%;
+}
+
+.review .cards .card img{
+  width: auto;
+}
+
+.review .cards .placeholder{
+  margin-left: 40px;
+  float: right;
+  /* width: auto !important; */
+}
+
+.review .review-cards{
+  width: 100%;
+  display: flex;
+  gap: 28px;
+}
+
+.review .review-cards .card{
+  border-radius: 14px;
+  border: 1px solid #009FE2;
+  padding: 24px 37px;
+  background-color: var(--bg-secondary);
+  width: 50%;
+}
+
+.review .review-cards .card .header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review .review-cards .card .header .text{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 12px;
+}
+
+.review .review-cards .header .review-img{
+  width: 56px;
+  height: 56px;
+  border: 1px solid #DF5929;
+  border-radius: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  border-style: dashed;
+}
+
+.review .header .star{
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.review .review-content{
+  margin-top: 27px;
+}
+
+.review .review-content p{
+  color: var(--text-muted);
+}
+
+.review .review-content .quotations-right{
+  display: flex;
+  justify-content: space-between;
+}
+
+.review .review-content .quotations-right img{
+  transform: rotate(180deg);
+}
+
+.review .review-cards-2{
+  margin-top: 28px;
+}
+
+.review .review-cards-2 .card{
+  width: 33%;
 }
 
 
