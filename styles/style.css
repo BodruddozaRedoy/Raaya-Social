@@ -68,6 +68,8 @@ button {
   font-weight: 500;
 }
 
+
+
 .title {
   font-size: var(--font-xl);
   font-weight: 700;
@@ -97,6 +99,10 @@ button {
 .book-btn {
   border-color: var(--text-primary);
   color: var(--text-primary);
+}
+
+.menu-bar{
+  width: 35px;
 }
 
 /* banner */
@@ -232,6 +238,19 @@ button {
 /* service  */
 .service {
   padding: 100px 116px;
+  position: relative;
+}
+
+.service .bg-style-left{
+  position: absolute;
+  top: 80px;
+  left: 0px;
+}
+
+.service .bg-style-right{
+  position: absolute;
+  bottom: -150px;
+  right: 0px;
 }
 
 .service .title span {

@@ -1,0 +1,44 @@
+/* mobile responsive  */
+@media (max-width: 576px) {
+  .container {
+    padding: 20px;
+  }
+  .display-none {
+    display: none;
+  }
+  .navbar {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .navbar ul{
+    display: none;
+  }
+
+  .navbar .buttons {
+    display: none;
+  }
+  .banner {
+    grid-template-columns: 1fr;
+    justify-content: center;
+
+  }
+  .banner .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .banner .banner-title{
+    text-align: center;
+  }
+  .banner .text-content p {
+    text-align: center;
+  }
+  .banner-img-section .banner-img{
+    width: 100%;
+  }
+  .banner-img-section .banner-img img{
+    width: 40%;
+  }
+}
