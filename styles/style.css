@@ -738,7 +738,7 @@ margin-bottom: 100px;
   /* justify-content: space-between; */
 }
 .footer .logo{
-  font-size: 48px;
+  font-size: var(--font-xl);
   font-weight: bold;
   margin-bottom: 32px;
 }

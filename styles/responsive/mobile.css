@@ -154,4 +154,22 @@
   .accordion-header h4{
     font-size: 16px;
   }
+  .footer-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .company-info{
+  width: 100%;
+  padding-right: 0;
+}
+.footer .services{
+  width: 100% !important;
+}
+.footer .quick-links{
+  width: 100%;
+  margin-top: 20px;
+}
+.footer .contact-us{
+  width: 100%;
+}
 }
