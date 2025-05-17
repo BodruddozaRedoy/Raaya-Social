@@ -21,6 +21,14 @@
   .banner {
     grid-template-columns: 1fr;
     justify-content: center;
+    margin-top: 40px;
+  }
+
+  .divider-img, .divider{
+    display: none;
+  }
+  .client .text p{
+    margin-bottom: 20px;
   }
   .banner .text {
     display: flex;
@@ -87,6 +95,7 @@
   }
   .service-cards {
     flex-direction: column;
+    margin-top: 60px;
   }
   .service-cards .cards .card {
     justify-content: start;
@@ -102,11 +111,17 @@
   .service-cards .cards .card h3 {
     font-size: 16px;
   }
+  .detailed-section{
+    margin-bottom: 50px;
+  }
   .detailed-section .cards {
     grid-template-columns: 1fr;
   }
   .detailed-section .text-cards {
     grid-template-columns: 1fr;
+  }
+  .business-video{
+    margin-bottom: 50px;
   }
   .business-video .text h1 {
     text-align: center;
@@ -125,10 +140,14 @@
   }
   .demo {
     flex-direction: column;
-    margin-bottom: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
   }
   .demo img {
     width: 100%;
+  }
+  .review{
+    margin-bottom: 50px;
   }
   .review .text h1{
     width: 100%;

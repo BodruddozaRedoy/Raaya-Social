@@ -678,7 +678,7 @@ margin-bottom: 100px;
 }
 
 .faq .text h1{
-  font-size: 48px;
+  font-size: var(--font-xl);
   font-weight: bold;
   text-align: center;
 }
