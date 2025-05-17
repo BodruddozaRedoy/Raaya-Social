@@ -484,7 +484,7 @@ margin-bottom: 100px;
 }
 
 .business-video .text h1{
-  font-size: 48px;
+  font-size: var(--font-xl);
   font-weight: 600;
   margin-bottom: 40px;
 }
@@ -500,6 +500,7 @@ margin-bottom: 100px;
   align-items: center;
   gap: 24px;
   position: relative;
+  width: 100%;
 }
 
 .business-video .cards .card img{
@@ -536,8 +537,9 @@ margin-bottom: 100px;
   margin-bottom: 188px;
 }
 
+
 .demo h1{
-  font-size: 48px;
+  font-size: var(--font-xl);
   font-weight: bold;
   font-family: "raleway", sans-serif;
 }
@@ -562,9 +564,11 @@ margin-bottom: 100px;
 }
 
 .review .text h1{
-  font-size: 48px;
+  font-size: var(--font-xl);
   font-weight: 600;
   text-align: center;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .review .text{

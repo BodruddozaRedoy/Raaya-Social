@@ -11,7 +11,7 @@
     width: 100%;
   }
 
-  .navbar ul{
+  .navbar ul {
     display: none;
   }
 
@@ -21,7 +21,6 @@
   .banner {
     grid-template-columns: 1fr;
     justify-content: center;
-
   }
   .banner .text {
     display: flex;
@@ -29,84 +28,127 @@
     justify-content: center;
     flex-direction: column;
   }
-  .banner .banner-title{
+  .banner .banner-title {
     text-align: center;
   }
   .banner .text-content p {
     text-align: center;
   }
-  .banner .buttons{
+  .banner .buttons {
     display: flex;
     justify-content: center;
   }
-  .banner-img-section{
+  .banner-img-section {
     align-items: center;
   }
-  .banner-img-section .banner-img{
+  .banner-img-section .banner-img {
     width: 100%;
     justify-content: center;
   }
-  .banner-img-section .banner-img img{
+  .banner-img-section .banner-img img {
     width: 40%;
   }
-  .banner-img-section .social-icons{
+  .banner-img-section .social-icons {
     gap: 10px;
   }
-  .client{
+  .client {
     flex-direction: column;
     padding-left: 0;
     padding: 20px;
   }
-  .client .text{
+  .client .text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .client .divider-img{
+  .client .divider-img {
     transform: rotate(90deg);
     margin: 0 10px;
   }
-  .client-logos{
+  .client-logos {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .client-logos img{
+  .client-logos img {
     width: 40%;
   }
-  .service{
+  .service {
     padding: 60px 0;
   }
-  .service .text{
+  .service .text {
     padding: 20px;
   }
-  .service .text p{
+  .service .text p {
     width: 100%;
   }
-  .service-container{
+  .service-container {
     grid-template-columns: 1fr;
   }
-  .service-cards{
+  .service-cards {
     flex-direction: column;
   }
-  .service-cards .cards .card{
+  .service-cards .cards .card {
     justify-content: start;
     padding: 20px;
   }
-  .text-service{
+  .text-service {
     padding: -20px;
   }
-  .service-cards .divider{
+  .service-cards .divider {
     transform: rotate(90deg);
     margin: 10px;
   }
-  .service-cards .cards .card h3{
+  .service-cards .cards .card h3 {
     font-size: 16px;
   }
-  .detailed-section .cards{
+  .detailed-section .cards {
     grid-template-columns: 1fr;
   }
-  .detailed-section .text-cards{
+  .detailed-section .text-cards {
     grid-template-columns: 1fr;
+  }
+  .business-video .text h1 {
+    text-align: center;
+  }
+  .business-video .text h1 img {
+    width: 30%;
+  }
+  .business-video .cards {
+    grid-template-columns: 1fr;
+  }
+  .business-video .cards .card img {
+    width: 100%;
+  }
+  .business-video .slider-btn {
+    display: none;
+  }
+  .demo {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .demo img {
+    width: 100%;
+  }
+  .review .text h1{
+    width: 100%;
+  }
+  .review .text h1 img{
+    width: 40%;
+  }
+  .review .cards{
+    flex-direction: column;
+  }
+  .review .cards .card img{
+    width: 100%;
+  }
+  .review .review-cards{
+    flex-direction: column;
+  }
+  .review .review-cards .card{
+    width: 100%;
+  }
+  .placeholder{
+    display: none;
   }
 }
