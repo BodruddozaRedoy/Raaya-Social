@@ -34,6 +34,7 @@ document.addEventListener("click", (e) => {
 const accordions = document.querySelectorAll(".accordion");
 
 accordions.forEach((accordion) => {
+    // console.log(accordion)
   const header = accordion.querySelector(".accordion-header");
   const plusBtn = accordion.querySelector(".accordion-plus-btn");
   const minusBtn = accordion.querySelector(".accordion-minus-btn");
@@ -42,6 +43,7 @@ accordions.forEach((accordion) => {
   header.addEventListener("click", () => {
     // close all other accordions
     accordions.forEach((otherAccordion) => {
+        // console.log(otherAccordion, accordion)
       if (otherAccordion !== accordion) {
         const otherContent = otherAccordion.querySelector(".accordion-content");
         const otherPlusBtn = otherAccordion.querySelector(".accordion-plus-btn");
@@ -59,3 +61,4 @@ accordions.forEach((accordion) => {
     minusBtn.classList.toggle("accordion-hide");
   });
 });
+
