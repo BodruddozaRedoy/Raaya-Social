@@ -1,0 +1,15 @@
+@media (min-width: 769px) and (max-width: 1024px){
+    .container{
+        padding: 0 20px;
+    }
+    .navbar{
+        padding: 20px 20px;
+    }
+    .navbar ul {
+        gap: 15px;
+    }
+
+    .navbar .logo{
+        width: 70px;
+    }
+}
