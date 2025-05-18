@@ -1,13 +1,12 @@
 /* mobile responsive  */
-@media (max-width: 576px) 
-{
+@media (max-width: 576px) {
   .container {
     padding: 20px;
   }
   .display-none {
     display: none;
   }
-  body{
+  body {
     overflow-x: hidden;
   }
   .navbar {
@@ -15,7 +14,7 @@
     width: 100%;
   }
 
-  .menu-bar{
+  .menu-bar {
     display: inline-flex;
   }
 
@@ -32,10 +31,11 @@
     margin-top: 40px;
   }
 
-  .divider-img, .divider{
+  .divider-img,
+  .divider {
     display: none;
   }
-  .client .text p{
+  .client .text p {
     margin-bottom: 20px;
   }
   .banner .text {
@@ -119,7 +119,7 @@
   .service-cards .cards .card h3 {
     font-size: 16px;
   }
-  .detailed-section{
+  .detailed-section {
     margin-bottom: 50px;
   }
   .detailed-section .cards {
@@ -128,7 +128,7 @@
   .detailed-section .text-cards {
     grid-template-columns: 1fr;
   }
-  .business-video{
+  .business-video {
     margin-bottom: 50px;
   }
   .business-video .text h1 {
@@ -154,49 +154,49 @@
   .demo img {
     width: 100%;
   }
-  .review{
+  .review {
     margin-bottom: 50px;
   }
-  .review .text h1{
+  .review .text h1 {
     width: 100%;
   }
-  .review .text h1 img{
+  .review .text h1 img {
     width: 40%;
   }
-  .review .cards{
+  .review .cards {
     flex-direction: column;
   }
-  .review .cards .card img{
+  .review .cards .card img {
     width: 100%;
   }
-  .review .review-cards{
+  .review .review-cards {
     flex-direction: column;
   }
-  .review .review-cards .card{
+  .review .review-cards .card {
     width: 100%;
   }
-  .placeholder{
+  .placeholder {
     display: none;
   }
-  .accordion-header h4{
+  .accordion-header h4 {
     font-size: 16px;
   }
-  .footer-content{
+  .footer-content {
     flex-direction: column;
     align-items: center;
   }
-  .footer .company-info{
-  width: 100%;
-  padding-right: 0;
-}
-.footer .services{
-  width: 100% !important;
-}
-.footer .quick-links{
-  width: 100%;
-  margin-top: 20px;
-}
-.footer .contact-us{
-  width: 100%;
-}
+  .footer .company-info {
+    width: 100%;
+    padding-right: 0;
+  }
+  .footer .services {
+    width: 100% !important;
+  }
+  .footer .quick-links {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .footer .contact-us {
+    width: 100%;
+  }
 }

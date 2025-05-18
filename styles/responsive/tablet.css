@@ -2,19 +2,19 @@
   .container {
     padding: 20px;
   }
-  body{
+  body {
     overflow-x: hidden;
   }
   .display-none {
     display: none;
   }
-  h1{
+  h1 {
     font-size: 32px !important;
   }
-  h1 span{
+  h1 span {
     font-size: 32px !important;
   }
-  h1 img{
+  h1 img {
     width: 20% !important;
   }
   .navbar {
@@ -114,7 +114,7 @@
     margin-top: 60px;
   }
 
-  .service-cards .cards .card{
+  .service-cards .cards .card {
     justify-content: space-between !important;
     /* width: 100%; */
   }
@@ -167,7 +167,7 @@
   .demo img {
     width: 40%;
   }
-  .demo h1{
+  .demo h1 {
     font-size: 30px;
   }
   .review {
@@ -188,7 +188,7 @@
   .review .review-cards {
     /* flex-direction: column; */
   }
-  .review-cards-2{
+  .review-cards-2 {
     flex-direction: column;
   }
   .review .review-cards .card {
