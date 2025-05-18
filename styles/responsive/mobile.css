@@ -1,5 +1,6 @@
 /* mobile responsive  */
-@media (max-width: 576px) {
+@media (max-width: 576px) 
+{
   .container {
     padding: 20px;
   }
@@ -9,6 +10,10 @@
   .navbar {
     padding: 15px;
     width: 100%;
+  }
+
+  .menu-bar{
+    display: inline-flex;
   }
 
   .navbar ul {

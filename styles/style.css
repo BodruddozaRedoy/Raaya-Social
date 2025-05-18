@@ -70,8 +70,6 @@ button {
   cursor: pointer;
 }
 
-
-
 .title {
   font-size: var(--font-xl);
   font-weight: 700;
@@ -86,6 +84,9 @@ button {
   justify-content: space-between;
   align-items: center;
   background-color: var(--bg-secondary);
+}
+.menu-bar {
+  display: none;
 }
 
 .navbar ul {
@@ -103,7 +104,7 @@ button {
   color: var(--text-primary);
 }
 
-.menu-bar{
+.menu-bar {
   width: 35px;
 }
 
@@ -243,13 +244,13 @@ button {
   position: relative;
 }
 
-.service .bg-style-left{
+.service .bg-style-left {
   position: absolute;
   top: 80px;
   left: 0px;
 }
 
-.service .bg-style-right{
+.service .bg-style-right {
   position: absolute;
   bottom: -150px;
   right: 0px;
@@ -328,7 +329,7 @@ button {
   gap: 16px;
 }
 
-.service-cards .card-icon-container{
+.service-cards .card-icon-container {
   width: 22px;
 }
 
@@ -361,10 +362,9 @@ button {
   height: 22px;
   border: 1px solid #d0d5dd;
   border-radius: 100%;
-  
 }
 
-.service-cards .card-icon img{
+.service-cards .card-icon img {
   object-fit: contain;
 }
 
@@ -407,11 +407,11 @@ button {
 }
 
 /* details sections  */
-.detailed-section{
+.detailed-section {
   margin-bottom: 100px;
 }
 
-.detailed-section .cards{
+.detailed-section .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
@@ -419,82 +419,82 @@ button {
   margin: 48px 0;
 }
 
-.detailed-section .text h1{
-  font-family: 'raleway', sans-serif;
+.detailed-section .text h1 {
+  font-family: "raleway", sans-serif;
   font-size: var(--font-xl);
   font-weight: bold;
   text-align: center;
 }
 
-.detailed-section .text h1 span{
+.detailed-section .text h1 span {
   color: var(--text-primary);
 }
 
-.detailed-section .card-header{
+.detailed-section .card-header {
   display: flex;
   align-items: start;
   justify-content: space-between;
   gap: 17px;
 }
 
-.detailed-section .card-header p{
+.detailed-section .card-header p {
   line-height: 1;
   font-size: 20px;
   font-weight: 500;
 }
 
-.detailed-section .cards .card{
+.detailed-section .cards .card {
   padding: 20px 24px 32px 24px;
   border-radius: 12px;
   background-color: var(--bg-secondary);
 }
 
-.detailed-img{
+.detailed-img {
   width: 100%;
   margin-top: 24px;
   margin-bottom: 20px;
 }
 
-.detailed-section .card-desc{
+.detailed-section .card-desc {
   color: var(--text-muted);
 }
 
-.detailed-section .text-cards{
+.detailed-section .text-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 48px;
-gap: 24px;
+  gap: 24px;
 }
 
-.detailed-section .text-card{
+.detailed-section .text-card {
   border-radius: 16px;
   padding: 12px 16px;
-  border: 1px solid #D0D5DD;
+  border: 1px solid #d0d5dd;
 }
 
-.detailed-section .text-card h3{
+.detailed-section .text-card h3 {
   margin-bottom: 12px;
   font-size: 20px;
   font-weight: 500;
 }
 
 /* business video  */
-.business-video{
-margin-bottom: 100px;
+.business-video {
+  margin-bottom: 100px;
 }
 
-.business-video .text h1{
+.business-video .text h1 {
   font-size: var(--font-xl);
   font-weight: 600;
   margin-bottom: 40px;
 }
 
-.business-video .text .title{
+.business-video .text .title {
   color: var(--text-primary);
   font-weight: 600;
 }
 
-.business-video .cards{
+.business-video .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
@@ -503,18 +503,18 @@ margin-bottom: 100px;
   width: 100%;
 }
 
-.business-video .cards .card img{
+.business-video .cards .card img {
   width: 100%;
   margin-bottom: 20px;
 }
 
-.business-video .cards .card h4{
+.business-video .cards .card h4 {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
 }
 
-.business-video .slider-btn{
+.business-video .slider-btn {
   position: absolute;
   top: 50%;
   right: -70px;
@@ -522,7 +522,7 @@ margin-bottom: 100px;
   transform: translateY(-50%);
 }
 
-.personal-video{
+.personal-video {
   margin-bottom: 148px;
 }
 
@@ -537,21 +537,20 @@ margin-bottom: 100px;
   margin-bottom: 188px;
 }
 
-
-.demo h1{
+.demo h1 {
   font-size: var(--font-xl);
   font-weight: bold;
   font-family: "raleway", sans-serif;
 }
 
-.demo p{
+.demo p {
   color: var(--text-muted);
   margin-top: 20px;
   margin-bottom: 32px;
 }
 
 /* client  */
-.review{
+.review {
   /* margin: 0 auto; */
   width: 100%;
   display: flex;
@@ -563,7 +562,7 @@ margin-bottom: 100px;
   /* padding: 0 148px; */
 }
 
-.review .text h1{
+.review .text h1 {
   font-size: var(--font-xl);
   font-weight: 600;
   text-align: center;
@@ -571,16 +570,16 @@ margin-bottom: 100px;
   margin: 0 auto;
 }
 
-.review .text{
+.review .text {
   width: 100%;
   margin: 0 auto;
 }
-.review .text .title{
+.review .text .title {
   color: var(--text-primary);
   font-weight: 600;
 }
 
-.review .cards{
+.review .cards {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -590,50 +589,50 @@ margin-bottom: 100px;
   margin-bottom: 32px;
 }
 
-.review .cards .card{
+.review .cards .card {
   width: 100%;
 }
 
-.review .cards .card img{
+.review .cards .card img {
   width: 100%;
 }
 
-.review .cards .placeholder{
+.review .cards .placeholder {
   margin-left: 40px;
   float: right;
   /* width: auto !important; */
 }
 
-.review .review-cards{
+.review .review-cards {
   width: 100%;
   display: flex;
   gap: 28px;
 }
 
-.review .review-cards .card{
+.review .review-cards .card {
   border-radius: 14px;
-  border: 1px solid #009FE2;
+  border: 1px solid #009fe2;
   padding: 24px 37px;
   background-color: var(--bg-secondary);
   width: 50%;
 }
 
-.review .review-cards .card .header{
+.review .review-cards .card .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.review .review-cards .card .header .text{
+.review .review-cards .card .header .text {
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
   gap: 12px;
 }
 
-.review .review-cards .header .review-img{
+.review .review-cards .header .review-img {
   width: 56px;
   height: 56px;
-  border: 1px solid #DF5929;
+  border: 1px solid #df5929;
   border-radius: 100%;
   display: flex;
   align-items: end;
@@ -641,64 +640,64 @@ margin-bottom: 100px;
   border-style: dashed;
 }
 
-.review .header .star{
+.review .header .star {
   display: flex;
   gap: 7px;
   align-items: center;
 }
 
-.review .review-content{
+.review .review-content {
   margin-top: 27px;
 }
 
-.review .review-content p{
+.review .review-content p {
   color: var(--text-muted);
 }
 
-.review .review-content .quotations-right{
+.review .review-content .quotations-right {
   display: flex;
   justify-content: space-between;
 }
 
-.review .review-content .quotations-right img{
+.review .review-content .quotations-right img {
   transform: rotate(180deg);
 }
 
-.review .review-cards-2{
+.review .review-cards-2 {
   margin-top: 28px;
 }
 
-.review .review-cards-2 .card{
+.review .review-cards-2 .card {
   width: 33%;
 }
 
 /* faq  */
-.faq{
+.faq {
   margin-bottom: 80px;
 }
 
-.faq .text h1{
+.faq .text h1 {
   font-size: var(--font-xl);
   font-weight: bold;
   text-align: center;
 }
 
-.faq .text .title{
+.faq .text .title {
   color: var(--text-primary);
 }
 
-.faq .text p{
+.faq .text p {
   color: var(--text-muted);
   text-align: center;
 }
 
-.faq .accordion{
+.faq .accordion {
   padding: 24px;
   border-radius: 8px;
   background-color: var(--bg-secondary);
 }
 
-.faq .accordions{
+.faq .accordions {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -707,112 +706,111 @@ margin-bottom: 100px;
   gap: 20px;
 }
 
-.faq .accordions .accordion-header{
+.faq .accordions .accordion-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.accordion-header h4{
+.accordion-header h4 {
   font-size: 20px;
   font-weight: 500;
 }
 
-.accordion p{
+.accordion p {
   color: #949494;
   margin-top: 12px;
 }
 
 /* footer  */
-.footer{
+.footer {
   padding-top: 46px;
   padding-bottom: 46px;
   background-color: var(--bg-secondary);
   margin-top: 110px;
-  
 }
 
-.footer .footer-content{
+.footer .footer-content {
   display: flex;
   align-items: start;
   /* justify-content: space-between; */
 }
-.footer .logo{
+.footer .logo {
   font-size: var(--font-xl);
   font-weight: bold;
   margin-bottom: 32px;
 }
 
-.footer .company-info{
+.footer .company-info {
   width: 30%;
   padding-right: 40px;
 }
 
-.footer .company-info h4{
+.footer .company-info h4 {
   margin-bottom: 16px;
   font-size: 18px;
   font-weight: 600;
 }
 
-.footer .buttons{
+.footer .buttons {
   margin-top: 32px;
 }
 
-.footer .buttons .get-started{
-margin-left: 24px;
+.footer .buttons .get-started {
+  margin-left: 24px;
 }
 
-.footer .quick-links h4{
+.footer .quick-links h4 {
   font-size: 18px;
   margin-bottom: 16px;
   font-weight: 500;
 }
 
-.footer .quick-links ul li{
+.footer .quick-links ul li {
   color: var(--text-muted);
 }
 
-.footer .quick-links{
+.footer .quick-links {
   width: 15%;
 }
 
-.footer .quick-links ul li{
+.footer .quick-links ul li {
   margin-bottom: 14px;
 }
 
-.footer .services{
+.footer .services {
   width: 25% !important;
 }
 
-.footer .services ul li{
+.footer .services ul li {
   margin-bottom: 14px;
 }
 
-.footer .contact-us{
+.footer .contact-us {
   width: 30%;
 }
 
-.footer .contact-us h4{
+.footer .contact-us h4 {
   font-size: 18px;
   margin-bottom: 16px;
   font-weight: 500;
 }
 
-.footer .contact-us div{
+.footer .contact-us div {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.footer .contact-us input{
-  border: 1px solid #D0D5DD;
+.footer .contact-us input {
+  border: 1px solid #d0d5dd;
   padding: 8px 10px;
   border-radius: 8px;
   width: 100%;
 }
 
-.footer .contact-us textarea{
-  border: 1px solid #D0D5DD;
+.footer .contact-us textarea {
+  border: 1px solid #d0d5dd;
   padding: 8px 10px;
   border-radius: 8px;
   width: 100%;
@@ -820,7 +818,7 @@ margin-left: 24px;
   font-family: "poppins";
 }
 
-.footer .submit{
+.footer .submit {
   padding: 8px 0;
   width: 100%;
   margin-top: 20px;
@@ -830,18 +828,16 @@ margin-left: 24px;
   border-radius: 12px !important;
 }
 
-.footer .submit span{
+.footer .submit span {
   margin-left: 16px;
 }
 
-.footer hr{
-  border: 1px solid #D0D5DD;
+.footer hr {
+  border: 1px solid #d0d5dd;
   margin-bottom: 24px;
   margin-top: 40px;
 }
 
-.copyright p{
+.copyright p {
   text-align: center;
 }
-
-
