@@ -88,6 +88,9 @@ button {
 .menu-bar {
   display: none;
 }
+.menu-bar img{
+  width: 100%;
+}
 
 .navbar ul {
   display: flex;
@@ -674,6 +677,7 @@ button {
 /* faq  */
 .faq {
   margin-bottom: 80px;
+  width: 100%;
 }
 
 .faq .text h1 {
@@ -694,6 +698,7 @@ button {
 .faq .accordion {
   padding: 24px;
   border-radius: 8px;
+  width: 100%;
   background-color: var(--bg-secondary);
 }
 

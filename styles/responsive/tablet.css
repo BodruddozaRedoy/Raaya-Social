@@ -8,6 +8,15 @@
   .display-none {
     display: none;
   }
+  h1{
+    font-size: 32px !important;
+  }
+  h1 span{
+    font-size: 32px !important;
+  }
+  h1 img{
+    width: 20% !important;
+  }
   .navbar {
     padding: 15px;
     width: 100%;
