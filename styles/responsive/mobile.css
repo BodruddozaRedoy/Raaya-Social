@@ -7,6 +7,9 @@
   .display-none {
     display: none;
   }
+  body{
+    overflow-x: hidden;
+  }
   .navbar {
     padding: 15px;
     width: 100%;

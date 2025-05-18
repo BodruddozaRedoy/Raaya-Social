@@ -2,6 +2,9 @@
   .container {
     padding: 20px;
   }
+  body{
+    overflow-x: hidden;
+  }
   .display-none {
     display: none;
   }

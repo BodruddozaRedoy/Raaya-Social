@@ -14,12 +14,9 @@
     .navbar{
         padding: 20px 20px;
     }
-    /* section{
-        border: 1px solid green;
-    } */
-    /* body{
-        overflow-x: hidden;
-    } */
+    body{
+    overflow-x: hidden;
+  }
     .navbar ul {
         gap: 15px;
     }
