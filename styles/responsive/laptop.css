@@ -2,9 +2,24 @@
     .container{
         padding: 0 20px;
     }
+    .divider-img{
+    display: none;
+  }
+  h1{
+    font-size: 32px !important;
+  }
+  h1 span{
+    font-size: 32px !important;
+  }
     .navbar{
         padding: 20px 20px;
     }
+    /* section{
+        border: 1px solid green;
+    } */
+    /* body{
+        overflow-x: hidden;
+    } */
     .navbar ul {
         gap: 15px;
     }
@@ -12,4 +27,39 @@
     .navbar .logo{
         width: 70px;
     }
+    .client {
+    flex-direction: column;
+    padding-left: 0;
+    padding: 20px;
+  }
+    .client .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .service{
+    padding: 40px 20px;
+  }
+  .demo{
+    padding: 20px;
+  }
+
+  .business-video .slider-btn{
+    right: -50px;
+  }
+
+  .footer{
+    padding: 40px 20px;
+  }
+  .footer .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  .footer .buttons .get-started{
+    margin-left: 0;
+  }
 }
