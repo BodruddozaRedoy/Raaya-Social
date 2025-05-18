@@ -1,63 +1,63 @@
-@media (min-width: 769px) and (max-width: 1024px){
-    .container{
-        padding: 0 20px;
-    }
-    .divider-img{
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+  .divider-img {
     display: none;
   }
-  h1{
+  h1 {
     font-size: 32px !important;
   }
-  h1 span{
+  h1 span {
     font-size: 32px !important;
   }
-    .navbar{
-        padding: 20px 20px;
-    }
-    body{
+  .navbar {
+    padding: 20px 20px;
+  }
+  body {
     overflow-x: hidden;
   }
-    .navbar ul {
-        gap: 15px;
-    }
+  .navbar ul {
+    gap: 15px;
+  }
 
-    .navbar .logo{
-        width: 70px;
-    }
-    .client {
+  .navbar .logo {
+    width: 70px;
+  }
+  .client {
     flex-direction: column;
     padding-left: 0;
     width: 100%;
     /* padding: 20px; */
   }
-    .client .text {
+  .client .text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
   }
-  .service{
+  .service {
     padding: 40px 20px;
   }
-  .demo{
+  .demo {
     padding: 20px;
   }
 
-  .business-video .slider-btn{
+  .business-video .slider-btn {
     right: -50px;
   }
 
-  .footer{
+  .footer {
     padding: 40px 20px;
   }
-  .footer .buttons{
+  .footer .buttons {
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 10px;
   }
-  .footer .buttons .get-started{
+  .footer .buttons .get-started {
     margin-left: 0;
   }
 }
